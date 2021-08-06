@@ -22,16 +22,4 @@ public class TestController {
         return "hello";
     }
 
-    @CrossOrigin
-    @GetMapping("/api/info/{num}")
-    @ApiOperation("1 넣으면 연희 2 넣으면 밍재")
-    public testDTO info(@PathVariable Integer num) {
-        testDTO build;
-        if(num == 1) {
-           build = testDTO.builder().age(123).name("연희").friend("영우").build();
-        } else {
-            build = testDTO.builder().age(6).name("밍재").friend("준형").build();
-        }
-        return build;
-    }
 }
