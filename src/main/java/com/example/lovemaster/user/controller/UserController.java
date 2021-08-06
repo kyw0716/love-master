@@ -19,7 +19,7 @@ public class UserController {
 
     @ApiOperation("회원가입하는 기능")
     @PostMapping("/register")
-    public ResponseEntity<String> registerPOST(CreateUserDTO userDTO, RedirectAttributes redirectAttributes){
+    public ResponseEntity<String> register(CreateUserDTO userDTO){
         return userService.register(userDTO);
     }
 
