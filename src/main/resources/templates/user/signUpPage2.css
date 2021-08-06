@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.container{    
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.picture{
+    width: 240px;
+    height: 9.18px;
+    margin-top: 80px;
+    margin-top: ;
+}
+.headline{
+    font-size: 26.39px;
+    text-align: center;
+    line-height: 30.95px;
+    font-weight: 700;
+    color: #3B3B3B;
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+.formBox{
+    display: flex;
+    flex-direction: column;
+}
+.innerText{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 19.94px;
+    color: #517BCC;
+}
+.inputBox{
+    border: none;
+    border-bottom: 1px solid #517BCC;
+    width: 325px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.inputBox::placeholder{
+    color: #A2A2A2;
+}
+.innerSmallText{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.42px;
+    color: #A2A2A2;
+}
+.introduceBox{
+    width: 328px;
+    height: 100px;
+    border-radius: 13px;
+    border: none;
+    background: #BCC9E169;
+    margin-bottom: 20px;
+}
+.submitBox{
+    width: 315px;
+    height: 45px;
+    border-radius: 16px;
+    background-color: #517BCC;
+    border: none;
+    color: white;
+    font-weight: 600;
+    line-height: 17.6px;
+    font-size: 15px;
+
+}
