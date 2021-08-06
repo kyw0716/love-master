@@ -1,6 +1,7 @@
 package com.example.lovemaster.user.controller;
 
 import com.example.lovemaster.user.dto.CreateUserDTO;
+import com.example.lovemaster.user.dto.LoginUserDTO;
 import com.example.lovemaster.user.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import lombok.AllArgsConstructor;
@@ -21,6 +22,12 @@ public class UserController {
     @PostMapping("/register")
     public ResponseEntity<String> register(CreateUserDTO userDTO){
         return userService.register(userDTO);
+    }
+
+    @ApiOperation("로그인하는 기능")
+    @PostMapping("/login")
+    public ResponseEntity<String> login(LoginUserDTO userDTO){
+        return userService.login(userDTO);
     }
 
 }
