@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+.container{
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.headline{
+    margin-top: 172px;
+    height: 46px;
+    width: 236px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.46px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+.picture{
+    width: 170.26px;
+    height: 155.82px;
+    margin-bottom: 28px;
+}
+.signUp{
+    font-size: 15px;
+    line-height: 17.6px;
+    color: #9A9A9A;
+    text-decoration: underline;
+    font-weight: 700;
+    background-color: #fffd91;
+}
+.recommand{
+    font-size: 26.39px;
+    line-height: 30.95px;
+    font-weight: 700;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.inputBox{
+    width: 351px;
+    height: 45px;
+    border-radius: 16px;
+    background-color: #BCC9E1;
+    border: none;
+    margin-bottom: 9px;
+}
+.inputBox::placeholder{
+    padding-left: 10px;
+}
+input::placeholder{
+    color: white;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.logIn{
+    width: 351px;
+    height: 45px;
+    border-radius: 16px;
+    background-color: #517BCC;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.forget{
+    font-size: 15px;
+    line-height: 17.6px;
+    text-decoration: underline;
+    color: #A3A3A8;
+    font-weight: 700;
+}
