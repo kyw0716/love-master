@@ -20,6 +20,7 @@ public class User {
     private String keyword;
     private String mbti;
     private String introduce;
+
     public static User createUser(String userId,String userPw,String userName,String userPhoneNum,String keyword,String mbti,String introduce) {
         User user = new User();
         user.userId = userId;
